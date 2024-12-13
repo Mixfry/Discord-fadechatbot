@@ -1,0 +1,16 @@
+{
+  "name": "discord-fadechat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node --env-file=.env deploy-commands.js && node --env-file=.env script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
